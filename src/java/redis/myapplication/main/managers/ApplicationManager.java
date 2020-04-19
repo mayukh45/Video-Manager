@@ -5,6 +5,7 @@ import redis.myapplication.main.models.Topic;
 import redis.myapplication.main.models.User;
 import redis.myapplication.main.models.Video;
 
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -44,5 +45,9 @@ public class ApplicationManager {
 
     public Set<Topic> getSubscribedTopicsForaUser(User user) {
         return usersManager.getSubscribedTopicsForaUser(user);
+    }
+
+    public List<Video> getAllVideosInAllTopicSubscribedByUser(User user) {
+        return usersManager.getAllVideosInAllTopicsSubscribedByUser(user);
     }
 }
