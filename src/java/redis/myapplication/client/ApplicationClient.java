@@ -10,6 +10,7 @@ import static redis.myapplication.client.Data.VideoData.*;
 
 /**
  * This is a client class to test the application.
+ * NOTE : This is just an example, there are more functionalities in the application which is not tested in this version of client class.
  */
 public class ApplicationClient {
 

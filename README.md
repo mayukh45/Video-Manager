@@ -17,6 +17,7 @@ I am using [Jedis](https://github.com/xetorthio/jedis) as my redis client.
 #### Key-Value mappings present:
 
 1. User --> Set of topics subscribed.
-2. Topics --> Sorted set of videos, sorted by the number of likes in each video.
+2. Topics --> Sorted set of videos, sorted by the number of likes in each video ie the SCORE signifies the number of likes.
 3. User --> Sorted set of videos. (This is created in runtime and it stores all the videos in all the subscribed topics sorted by number of likes)
+
 
