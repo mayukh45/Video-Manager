@@ -10,7 +10,7 @@ This is a short application that uses redis as its persistent data store.
 4) User can see all the videos in all topics subscribed by him/her sorted by number of likes.
 
 #### How to use:
-Clone this repo and make a client to consume the application, as given examples in the client folder.
+Clone this repo and make a client to consume the application, as given examples in the [client](https://github.com/mayukh45/RedisProject/tree/master/src/java/redis/myapplication/client) folder.
 
 I am using [Jedis](https://github.com/xetorthio/jedis) as my redis client.
 
