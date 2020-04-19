@@ -6,6 +6,9 @@ import com.google.inject.Provides;
 import com.google.inject.Singleton;
 import redis.clients.jedis.Jedis;
 
+/**
+ * This is the Guice module for the application.
+ */
 public class ApplicationModule extends AbstractModule {
 
     @Override

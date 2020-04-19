@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * This class acts a abstraction between client and the application.
+ * This class acts a abstraction between client and the application and can be used to avail all the functionalities present in the application.
  */
 public class ApplicationManager {
 
@@ -49,5 +49,9 @@ public class ApplicationManager {
 
     public List<Video> getAllVideosInAllTopicSubscribedByUser(User user) {
         return usersManager.getAllVideosInAllTopicsSubscribedByUser(user);
+    }
+
+    public void removeSubscribedTopicForAnUser(User user, Topic topic){
+        usersManager.removeSubscribedTopicForAnUser(user, topic);
     }
 }
