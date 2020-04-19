@@ -36,7 +36,6 @@ public class UsersManager {
                 .map(Enum::name).toArray(String[]::new);
 
         String key = user.getName() + KEY_SUFFIX;
-        System.out.println(key);
         client.zunionstore(key, topics);
         return client.zrevrange(key, 0, client.zcard(key)).stream()
                 .map(video -> gson.fromJson(video, Video.class))
