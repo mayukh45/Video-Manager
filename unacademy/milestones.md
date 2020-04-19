@@ -1,4 +1,4 @@
-#### Milestones
+## Milestones
 
 **1) What are the redis commands in this project?**
 * SADD
@@ -30,11 +30,11 @@ I used Sets and Sorted Sets mainly in this application.
 **4. What are the further improvements that can be made to make it
 efficient?**
 
-Currently (topic -> videos) and (user -> topics) and (user -> videos) are maintained separately. So if any new likes comes in any video or a new video is added, its not reflected in user -> videos mapping. We need to refresh it every time.
+Currently (topic -> videos) and (user -> topics) and (user -> videos) mappings are maintained separately. So if any new likes comes in any video or a new video is added, its not reflected in user -> videos mapping. We need to refresh it every time.
 More functionalities could have been added.
 
 **5.Does your implementation support multi threaded operations? If No
     why can’t it be? If yes then how?**
     
-This topic needs more deep dive currently.
+This topic needs more deep dive into Jedis implementation.
 
