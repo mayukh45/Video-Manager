@@ -1,6 +1,6 @@
 package redis.myapplication.client.Data;
 
-import redis.myapplication.models.Video;
+import redis.myapplication.main.models.Video;
 
 public class VideoData {
 

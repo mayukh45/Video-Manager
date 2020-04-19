@@ -1,4 +1,4 @@
-package redis.myapplication.modules;
+package redis.myapplication.main.modules;
 
 import com.google.gson.Gson;
 import com.google.inject.AbstractModule;

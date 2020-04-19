@@ -1,9 +1,9 @@
 package redis.myapplication.client;
 
 import com.google.inject.Guice;
-import redis.myapplication.managers.ApplicationManager;
-import redis.myapplication.models.Topic;
-import redis.myapplication.modules.ApplicationModule;
+import redis.myapplication.main.managers.ApplicationManager;
+import redis.myapplication.main.models.Topic;
+import redis.myapplication.main.modules.ApplicationModule;
 
 import static redis.myapplication.client.Data.VideoData.*;
 

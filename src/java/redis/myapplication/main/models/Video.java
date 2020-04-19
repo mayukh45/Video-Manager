@@ -1,4 +1,4 @@
-package redis.myapplication.models;
+package redis.myapplication.main.models;
 
 import lombok.Builder;
 import lombok.Data;

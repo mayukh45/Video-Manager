@@ -1,11 +1,9 @@
-package redis.myapplication.managers;
+package redis.myapplication.main.managers;
 
 import com.google.inject.Inject;
-import redis.myapplication.managers.UsersManager;
-import redis.myapplication.managers.VideosManager;
-import redis.myapplication.models.Topic;
-import redis.myapplication.models.User;
-import redis.myapplication.models.Video;
+import redis.myapplication.main.models.Topic;
+import redis.myapplication.main.models.User;
+import redis.myapplication.main.models.Video;
 
 import java.util.Set;
 

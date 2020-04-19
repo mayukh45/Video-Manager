@@ -1,6 +1,6 @@
 package redis.myapplication.client.Data;
 
-import redis.myapplication.models.User;
+import redis.myapplication.main.models.User;
 
 public class UserData {
 

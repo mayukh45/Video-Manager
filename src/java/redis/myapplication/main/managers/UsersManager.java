@@ -1,10 +1,10 @@
-package redis.myapplication.managers;
+package redis.myapplication.main.managers;
 
 import com.google.gson.Gson;
 import com.google.inject.Inject;
 import redis.clients.jedis.Jedis;
-import redis.myapplication.models.Topic;
-import redis.myapplication.models.User;
+import redis.myapplication.main.models.Topic;
+import redis.myapplication.main.models.User;
 
 import java.util.Set;
 import java.util.stream.Collectors;
